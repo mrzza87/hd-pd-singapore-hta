@@ -1,0 +1,14 @@
+Base-case economic evaluation interpretation
+------------------------------------------------
+Compared with current practice, increased PD uptake changed five-year cost by S$-5,985.70 per eligible patient.
+It changed five-year QALYs by 0.0105 per eligible patient.
+Base-case interpretation: Dominant: lower cost and higher QALYs.
+
+Budget impact interpretation
+------------------------------------------------
+In the base adoption scenario, the five-year cumulative incremental budget impact was S$-15,890,210.78.
+Negative incremental cost means increased PD uptake is cost-saving relative to current practice under the model assumptions.
+
+Important caution
+------------------------------------------------
+The result is mainly driven by publicly available cost proxies, assumed PD suitability, assumed mortality, assumed PD-to-HD switching and literature-based utility values. It should be interpreted as a transparent portfolio model rather than a definitive funding recommendation.

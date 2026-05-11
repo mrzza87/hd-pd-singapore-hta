@@ -1,0 +1,5 @@
+intervention,comparator,incremental_cost,incremental_qalys,incremental_life_years,icer_cost_per_qaly,interpretation,technical_scenario,discount_rate_costs,discount_rate_qalys,half_cycle_correction
+increased_pd_uptake,current_practice,-5985.700385016011,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs,base_case_no_discount_no_hcc,0.0,0.0,False
+increased_pd_uptake,current_practice,-5753.390836821636,0.010133490349133911,0.0,,Dominant: lower cost and higher QALYs,discount_3_percent_no_hcc,0.03,0.03,False
+increased_pd_uptake,current_practice,-5137.396474277746,0.008321059424589716,8.881784197001252e-16,,Dominant: lower cost and higher QALYs,no_discount_with_hcc,0.0,0.0,True
+increased_pd_uptake,current_practice,-4938.4149555532495,0.00807922652430415,8.881784197001252e-16,,Dominant: lower cost and higher QALYs,discount_3_percent_with_hcc,0.03,0.03,True

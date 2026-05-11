@@ -1,0 +1,3 @@
+strategy,total_cost,total_qalys,total_life_years,undiscounted_total_cost,undiscounted_total_qalys,undiscounted_total_life_years,final_alive,final_dead,half_cycle_correction,discount_rate_costs,discount_rate_qalys,n_cycles,scale
+current_practice,180249677.1364955,3026.264851951703,5171.33551104,180249677.1364955,3026.264851951703,5171.33551104,693.4397386751999,620.5602613248,False,0.0,0.0,5,"One eligible annual cohort of 1,314 patients"
+increased_pd_uptake,172384466.83058447,3040.00118257968,5171.335511040001,172384466.83058447,3040.00118257968,5171.335511040001,693.4397386752001,620.5602613248001,False,0.0,0.0,5,"One eligible annual cohort of 1,314 patients"

@@ -1,0 +1,2 @@
+threshold_parameter,approximate_break_even_annual_pd_cost,incremental_cost_at_nearest_point,base_case_annual_pd_cost,base_case_annual_hd_cost,notes
+annual_pd_cost,38000.0,63.14029941998888,18840.0,37800.0,Approximate grid-based threshold. Refine with root-finding if exact precision is needed.

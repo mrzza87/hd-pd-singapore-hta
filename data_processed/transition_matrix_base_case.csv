@@ -1,0 +1,5 @@
+from_state,HD,PD,Switched_PD_to_HD,Death
+HD,0.87,0.01,0.0,0.12
+PD,0.0,0.73,0.15,0.12
+Switched_PD_to_HD,0.0,0.0,0.88,0.12
+Death,0.0,0.0,0.0,1.0

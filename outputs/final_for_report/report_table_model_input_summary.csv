@@ -1,0 +1,14 @@
+parameter,base_value,low_value,high_value,unit,source_key,notes
+eligible_patients_per_year,1314.0,,,patients_per_year,MOH_PD_POLICY,Derived as incident patients per year multiplied by PD suitability share.
+current_pd_uptake,0.19,,,proportion,MOH_PD_POLICY,Current practice PD uptake anchor among new dialysis patients.
+target_pd_uptake,0.3,,,proportion,MOH_PD_POLICY,Policy target PD uptake among new dialysis patients.
+annual_cost_hd,37800.0,33600.0,42000.0,SGD_per_year,DUKE_MYKIDNEY_COSTS,Annual HD cost used in base Markov model.
+annual_cost_pd,18840.0,16800.0,20700.0,SGD_per_year,KHAN_2022_ECONOMICS,Annual blended PD cost used in base Markov model.
+annual_cost_switched_pd_to_hd,37800.0,33600.0,42000.0,SGD_per_year,DUKE_MYKIDNEY_COSTS,Assumed equal to annual HD cost after PD technique failure or modality switch.
+health_state_utility_hd,0.58,0.44,0.71,utility_weight,COOPER_2020_UTILITIES,"Placeholder utility for first-pass model. Cooper et al. systematic review supports using CKD utility evidence, but this exact base value should be sensitivity-tested."
+health_state_utility_pd,0.62,0.53,0.72,utility_weight,YANG_2018_PD_HRQoL,Placeholder utility for first-pass model. Keep utility difference small because Singapore PD modality HRQoL evidence suggests differences can be modest.
+health_state_utility_switched_pd_to_hd,0.56,0.44,0.71,utility_weight,COOPER_2020_UTILITIES,Assumed slightly lower than stable HD due to prior technique failure/switch burden. High-priority sensitivity parameter.
+annual_death_probability_hd,0.12,0.08,0.18,annual_probability,KHOO_2022_OUTCOMES,Base case assumes equal annual mortality for HD and PD to avoid over-interpreting observational modality differences. Replace with registry-calibrated survival if available.
+annual_death_probability_pd,0.12,0.08,0.2,annual_probability,KHOO_2022_OUTCOMES,Base case assumes equal mortality. Scenario analysis can apply the Singapore observational HR for PD versus HD.
+annual_pd_to_hd_switch_probability,0.15,0.08,0.25,annual_probability,KHAN_2022_ECONOMICS,Represents PD technique failure or modality switch. Needs validation from registry or local clinical input.
+annual_hd_to_pd_switch_probability,0.01,0.0,0.03,annual_probability,MOH_PD_POLICY,Small switch probability because the policy question focuses on initial modality uptake among new patients.

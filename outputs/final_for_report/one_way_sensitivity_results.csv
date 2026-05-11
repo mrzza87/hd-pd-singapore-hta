@@ -1,0 +1,21 @@
+parameter,bound,test_value,base_value,incremental_cost,incremental_qalys,incremental_life_years,icer_cost_per_qaly,interpretation
+annual_cost_hd,low,33600.0,37800.0,-4659.754097196026,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_cost_hd,high,42000.0,37800.0,-7311.646672836039,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_cost_pd,low,16800.0,18840.0,-6629.731439100011,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_cost_pd,high,20700.0,18840.0,-5398.4956004100095,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_cost_switched_pd_to_hd,low,33600.0,37800.0,-6442.2889790159825,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_cost_switched_pd_to_hd,high,42000.0,37800.0,-5529.11179101601,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+health_state_utility_hd,low,0.44,0.58,-5985.700385016011,0.06987165787800009,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+health_state_utility_hd,high,0.71,0.58,-5985.700385016011,-0.044719870238999704,4.440892098500626e-16,133848.78697156746,Trade-off: lower cost but fewer QALYs; ICER reflects cost saved per QALY lost
+health_state_utility_pd,low,0.53,0.62,-5985.700385016011,-0.017959306255000307,4.440892098500626e-16,333292.4056211496,Trade-off: lower cost but fewer QALYs; ICER reflects cost saved per QALY lost
+health_state_utility_pd,high,0.72,0.62,-5985.700385016011,0.042023978193999945,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+health_state_utility_switched_pd_to_hd,low,0.44,0.56,-5985.700385016011,-0.002591559916000019,4.440892098500626e-16,2309690.1399272787,Trade-off: lower cost but fewer QALYs; ICER reflects cost saved per QALY lost
+health_state_utility_switched_pd_to_hd,high,0.71,0.56,-5985.700385016011,0.02676056398399984,4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_death_probability_hd,low,0.08,0.12,-7126.426475255983,-0.007263659436000047,-0.030348295999999664,981106.911474413,Trade-off: lower cost but fewer QALYs; ICER reflects cost saved per QALY lost
+annual_death_probability_hd,high,0.18,0.12,-4460.177752536038,0.034164754843998946,0.040598975999999176,,Dominant: lower cost and higher QALYs
+annual_death_probability_pd,low,0.08,0.12,-5326.831010424008,0.02892244322000037,0.03024283679999984,,Dominant: lower cost and higher QALYs
+annual_death_probability_pd,high,0.2,0.12,-7156.115551991999,-0.02207068956400038,-0.0533067744000002,324236.1563394185,Trade-off: lower cost but fewer QALYs; ICER reflects cost saved per QALY lost
+annual_pd_to_hd_switch_probability,low,0.08,0.15,-6862.964561111978,0.013229980940000274,0.0,,Dominant: lower cost and higher QALYs
+annual_pd_to_hd_switch_probability,high,0.25,0.15,-4953.614112216019,0.007187732684000192,0.0,,Dominant: lower cost and higher QALYs
+annual_hd_to_pd_switch_probability,low,0.0,0.01,-6123.111809496011,0.01071868791399977,-4.440892098500626e-16,,Dominant: lower cost and higher QALYs
+annual_hd_to_pd_switch_probability,high,0.03,0.01,-5720.209428119997,0.009942939820000163,-4.440892098500626e-16,,Dominant: lower cost and higher QALYs

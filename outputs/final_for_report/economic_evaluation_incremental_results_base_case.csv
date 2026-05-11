@@ -1,0 +1,2 @@
+intervention,comparator,incremental_cost,incremental_qalys,incremental_life_years,icer_cost_per_qaly,interpretation
+increased_pd_uptake,current_practice,-5985.700385016011,0.01045382848400056,4.440892098500626e-16,,Dominant: lower cost and higher QALYs

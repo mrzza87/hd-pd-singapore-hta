@@ -1,0 +1,5 @@
+health_state,annual_cost_base,annual_cost_low,annual_cost_high,utility_base,utility_low,utility_high
+Death,0.0,0.0,0.0,0.0,0.0,0.0
+HD,37800.0,33600.0,42000.0,0.58,0.44,0.71
+PD,18840.0,16800.0,20700.0,0.62,0.53,0.72
+Switched_PD_to_HD,37800.0,33600.0,42000.0,0.56,0.44,0.71

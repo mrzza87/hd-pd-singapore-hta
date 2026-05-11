@@ -1,0 +1,19 @@
+processed_file,description
+model_scope_processed.csv,Clean report-facing scope and decision-problem table.
+clinical_evidence_processed.csv,Clean clinical and economic evidence summary table.
+population_inputs_processed.csv,Clean population inputs for burden and eligible population derivation.
+modality_mix_processed.csv,Clean current and target modality mix inputs.
+cost_inputs_processed.csv,Processed cost inputs with cost-quality caution flags.
+annual_costs_model_ready.csv,Annual cost by Markov health state.
+utility_inputs_processed.csv,Processed utility inputs with uncertainty labels.
+utilities_model_ready.csv,Utility weights by Markov health state.
+transition_inputs_processed.csv,Processed transition inputs with uncertainty labels.
+transitions_model_ready.csv,Base-case transition probabilities.
+transition_matrix_base_case.csv,Base-case Markov transition matrix.
+uptake_scenarios_processed.csv,Processed uptake scenario table with new-start calculations.
+budget_impact_scenarios_model_ready.csv,Budget impact scenario table for the modelling notebook.
+base_case_parameters_model_ready.csv,Single model-ready parameter table for base-case model.
+state_values_model_ready.csv,Cost and utility values by health state.
+source_inventory.csv,Inventory of sources used across processed raw data.
+input_quality_flags.csv,"Flags showing whether inputs are Singapore source, derived, assumption-heavy or literature-based."
+data_validation_summary.csv,Validation test results for the processed dataset.
