@@ -1,4 +1,4 @@
 scenario,five_year_incremental_cost,five_year_incremental_qalys,five_year_incremental_life_years,year_5_incremental_cost,year_5_cumulative_incremental_cost
-low_pd_adoption,-12364066.72,23.96,-0.0,-4521082.62,-12364066.72
 base_pd_adoption,-15890210.78,30.78,-0.0,-5913747.31,-15890210.78
 high_pd_adoption,-32737986.58,63.3,-0.0,-11799259.71,-32737986.58
+low_pd_adoption,-12364066.72,23.96,-0.0,-4521082.62,-12364066.72

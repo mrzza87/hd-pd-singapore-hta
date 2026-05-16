@@ -1,25 +1,25 @@
 test,status,details,severity,checked_at
-model_scope: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-population: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-modality_mix: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-costs: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-utilities: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-transitions: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-uptake: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-assumptions: required columns,PASS,All required columns present.,critical,2026-05-11T17:57:46
-Source hygiene: old source labels,PASS,No legacy method labels or old long source titles found.,critical,2026-05-11T17:57:46
-population: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-11T17:57:46
-modality_mix: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-11T17:57:46
-costs: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-11T17:57:46
-utilities: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-11T17:57:46
-transitions: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-11T17:57:46
-HD annual = monthly × 12,PASS,Actual=37800.00; expected=37800.00.,calculation,2026-05-11T17:57:46
-CAPD annual = monthly × 12,PASS,Actual=14400.00; expected=14400.00.,calculation,2026-05-11T17:57:46
-APD annual = monthly × 12,PASS,Actual=20400.00; expected=20400.00.,calculation,2026-05-11T17:57:46
-Blended PD annual = monthly × 12,PASS,Actual=18840.00; expected=18840.00.,calculation,2026-05-11T17:57:46
-APD + CAPD shares,PASS,Base shares sum to 1.0000.,calculation,2026-05-11T17:57:46
-Blended PD monthly cost,PASS,Actual=1570.00; expected=1570.00.,calculation,2026-05-11T17:57:46
-Incident patients per year,PASS,Actual=2190; expected=2190.,calculation,2026-05-11T17:57:46
-Uptake shares,PASS,PD uptake + HD uptake = 1 for every row.,calculation,2026-05-11T17:57:46
-Eligible patients per year,PASS,Eligible patients = incident patients × PD suitability share for every row.,calculation,2026-05-11T17:57:46
-Transition matrix,PASS,All rows sum to 1 and no negative probabilities found.,calculation,2026-05-11T17:57:46
+model_scope: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+population: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+modality_mix: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+costs: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+utilities: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+transitions: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+uptake: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+assumptions: required columns,PASS,All required columns present.,critical,2026-05-06T21:36:01
+Source hygiene: old source labels,PASS,No old ACE_METHODS or old long source title found.,critical,2026-05-06T21:36:01
+population: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-06T21:36:01
+modality_mix: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-06T21:36:01
+costs: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-06T21:36:01
+utilities: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-06T21:36:01
+transitions: duplicate parameters,PASS,No duplicate parameter names.,data_quality,2026-05-06T21:36:01
+HD annual = monthly × 12,PASS,Actual=37800.00; expected=37800.00.,calculation,2026-05-06T21:36:06
+CAPD annual = monthly × 12,PASS,Actual=14400.00; expected=14400.00.,calculation,2026-05-06T21:36:06
+APD annual = monthly × 12,PASS,Actual=20400.00; expected=20400.00.,calculation,2026-05-06T21:36:06
+Blended PD annual = monthly × 12,PASS,Actual=18840.00; expected=18840.00.,calculation,2026-05-06T21:36:06
+APD + CAPD shares,PASS,Base shares sum to 1.0000.,calculation,2026-05-06T21:36:06
+Blended PD monthly cost,PASS,Actual=1570.00; expected=1570.00.,calculation,2026-05-06T21:36:06
+Incident patients per year,PASS,Actual=2190; expected=2190.,calculation,2026-05-06T21:36:06
+Uptake shares,PASS,PD uptake + HD uptake = 1 for every row.,calculation,2026-05-06T21:36:06
+Eligible patients per year,PASS,Eligible patients = incident patients × PD suitability share for every row.,calculation,2026-05-06T21:36:06
+Transition matrix,PASS,All rows sum to 1 and no negative probabilities found.,calculation,2026-05-06T21:36:59

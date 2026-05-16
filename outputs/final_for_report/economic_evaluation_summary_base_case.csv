@@ -1,3 +1,0 @@
-strategy,total_cost,total_qalys,total_life_years,undiscounted_total_cost,undiscounted_total_qalys,undiscounted_total_life_years,final_alive,final_dead,half_cycle_correction,discount_rate_costs,discount_rate_qalys,n_cycles
-current_practice,137176.314411336,2.3030934946359993,3.93556736,137176.314411336,2.3030934946359993,3.93556736,0.5277319168,0.47226808319999997,False,0.0,0.0,5
-increased_pd_uptake,131190.61402632,2.31354732312,3.9355673600000003,131190.61402632,2.31354732312,3.9355673600000003,0.5277319168000001,0.4722680832,False,0.0,0.0,5
